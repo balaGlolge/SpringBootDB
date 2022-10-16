@@ -39,17 +39,6 @@ public class EmployeeServiceImplTest {
 		assertEquals(employee, employeeService.saveEmplyoee(employee));
 	}
 	
-	/*@Test
-	public void deleteEmployeeTest() {
-		Employee employee = new Employee();
-		employee.setName("Lord Corlys");
-		employee.setCity("Driftmark");
-		employee.setId(18);
-		employeeRepository.save(employee);
-		employeeRepository.deleteById(employee.getId());
-		Optional<Employee> expEmployee = employeeRepository.findById(employee.getId());
-		assertEquals(null, expEmployee);
-	}*/
 	
 	@Test
 	public void getAllEmployeeTest() {
